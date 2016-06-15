@@ -14,6 +14,7 @@ Dependencies:
   static {
     loader = new SqlStatementLoader(Thread.currentThread()
 				.getContextClassLoader());
+    //Note: the *.sql pattern is automatically appended to whatever pattern you provide.
     loader.loadStatementsByPattern("some/resource/directory");
   }
   @RequestMapping("/")
