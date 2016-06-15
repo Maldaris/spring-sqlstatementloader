@@ -7,7 +7,7 @@ Dependencies:
 
 ## Usage
 
-```
+```java
   static final Logger LOG = LoggerFactory.getLogger(ServletController.class);
   static final SqlStatementLoader loader;
 
